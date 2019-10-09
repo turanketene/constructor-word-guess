@@ -20,6 +20,6 @@ function Letter(value) {
         }
     }
 }
-
+// Making sure this file is able to be retrieved by other files
 module.exports = Letter;
 
