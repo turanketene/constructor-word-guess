@@ -2,13 +2,13 @@
 var Word = require("./word.js");
 var inquirer = require("inquirer");
 
-// letters entry
+// acceptable letters
 var letterArray = "abcdefghijklmnopqrstuvwxyz";
 
 // List of words to choose from
 var countryCapitals = ["algiers", "ankara", "brussels", "ottowa", "beijing", "cairo", "helsinki", "athens", "tehran", "rome", "washington d.c", "amsterdam", "mexico city"];
 
-// Pick Random index from AfricanCountries array
+// Pick Random index from countrycapitals array
 var randomIndex = Math.floor(Math.random() * countryCapitals.length);
 var randomWord = countryCapitals[randomIndex];
 
